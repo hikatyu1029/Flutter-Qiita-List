@@ -1,5 +1,6 @@
-import 'package:arukatsu/model/article.dart';
 import 'package:dio/dio.dart';
+
+import '../model/article.dart';
 
 class ArticleRepository {
   Future<List<Article>> fetchList() async {

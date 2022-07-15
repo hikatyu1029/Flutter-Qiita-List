@@ -6,7 +6,7 @@ import 'view/qiita_list_view.dart';
 final helloWorldProvider = Provider((_) => 'Hello world');
 
 void main() {
-  runApp(ProviderScope(child: Main()));
+  runApp(const ProviderScope(child: Main()));
 }
 
 class Main extends ConsumerWidget {

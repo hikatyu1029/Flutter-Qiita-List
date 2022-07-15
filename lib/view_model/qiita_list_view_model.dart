@@ -1,9 +1,7 @@
-import 'package:arukatsu/repository/article_repository.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../model/article.dart';
-import '../model/user.dart';
+import '../repository/article_repository.dart';
 
 final articleRepositoryProvider = Provider((ref) => ArticleRepository());
 

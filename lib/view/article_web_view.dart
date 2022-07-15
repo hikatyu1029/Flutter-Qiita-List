@@ -6,7 +6,7 @@ import '../model/article.dart';
 class ArticleWebView extends StatelessWidget {
   final Article article;
 
-  const ArticleWebView({required this.article});
+  const ArticleWebView({Key? key, required this.article}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

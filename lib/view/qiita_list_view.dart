@@ -1,15 +1,13 @@
-import 'dart:ffi';
-
-import 'package:arukatsu/view_model/qiita_list_view_model.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../model/article.dart';
+import '../view_model/qiita_list_view_model.dart';
 import 'article_web_view.dart';
 
 class QiitaListView extends StatelessWidget {
+  const QiitaListView({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return const QiitaListViewBody();
